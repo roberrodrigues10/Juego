@@ -1,0 +1,218 @@
+@media (max-width: 320px) {
+    body {
+        height: 100%;
+        background-color: lightblue;
+    }
+    .generalIndex {
+        width: 100%;
+        text-align: center;
+        margin: 15% 1% 1% 1%;
+    }
+    .tituloIndex {
+        width: 70%;
+        margin: 0 auto;
+        padding: 1% 1% 1% 1%;
+        font-size: 7vw;
+        color: rgb(255, 0, 0);
+        font-family: 'Old English Five', sans-serif;
+    }
+}
+@media (max-width: 320px) {
+    .generalIndex {
+        width: 100%;
+        text-align: center;
+        margin: 5% 1% 1% 1%;
+    }
+    .tituloIndex {
+        width: 30%;
+        margin: 0 auto;
+        padding: 1% 1% 1% 1%;
+        font-size: 1vw;
+        color: rgb(255, 0, 0);
+        font-family: 'Old English Five', sans-serif;
+    }
+}
+body {
+    background-image: url('ChatOn\ image\ 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*CSS INDEX*/
+.generalIndex {
+    width: 100%;
+    text-align: center;
+    margin: 15% 1% 1% 1%;
+}
+.nombreIndex {
+
+}
+.container {
+    display: inline-block;
+    border-radius: 50px;
+    margin: 12% 1% 1% 1%;
+    padding: 3% 3% 3% 3%;
+    text-align: center;
+    background-color: rgba(140, 120, 120, 0.25);
+}
+.tituloIndex {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1% 1% 1% 1%;
+    font-size: 3vw;
+    color: rgb(0, 0, 0);
+    font-family: 'Old English Five', sans-serif;
+}
+.botonIndex {
+    margin: 0 0 10px 0;
+}
+a {
+    text-decoration: none;
+}
+.loginIndex {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1% 1% 1% 1%;
+    box-sizing: border-box;
+    font-family: "Ovo", serif;
+    font-weight: normal;
+    font-size: 2vw;
+    color: #fff;
+}
+.login:hover {
+    transform: scale(1.15);
+}
+/*CSS ingresar y registrar*/
+.centrar {
+    width: 100%;
+    text-align: center;
+}
+.tituloIngresar {
+    width: 70%;
+    margin: auto;
+    padding: 1% 1% 1% 1%;
+    box-sizing: border-box;
+    font-size: 3vw;
+    color: rgb(0, 0, 0);
+    font-family: 'Old English Five', sans-serif;
+}
+.input {
+    margin-bottom: 20px;
+}
+.bi-person {
+    position: relative;
+}
+.text {
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid rgb(91, 91, 91);
+    border-radius: 17px;
+    background-color: #000;
+    color: #fff;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.entrar {
+    width: 170px;
+    height: 40px;
+    border-radius: 17px;
+    background-color: rgb(57, 0, 155);
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.entrar:hover {
+    border: 2px solid rgb(37, 0, 101);
+    background-color: rgb(216, 216, 216);
+    color: #000;
+    transform: scale(1.15);
+}
+.registrarse:hover {
+    border: 2px solid rgb(37, 0, 101);
+    background-color: rgb(216, 216, 216);
+    color: #000;
+    transform: scale(1.15);
+}
+.registrarse {
+    width: 170px;
+    height: 40px;
+    border-radius: 17px;
+    background-color: rgb(57, 0, 155);
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*css ingresar*/
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.campo1-I, .campo1-R, .campo2-R{
+    margin: auto auto 12% auto;
+}
+.campo2-I, .campo3-R {
+    margin: 0% 0% 3% 0%;
+}
+.contraseña {
+    text-align: right;
+    text-decoration: underline;
+}
+h6 {
+    margin: 0%;
+    color: #000;
+}
+#usuario::placeholder, #contraseña::placeholder {
+    color: #000;
+    font-family: "Ovo", serif;
+}
+#usuario {
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+}
+#contraseña {
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+}
+/*ModoDeJuego*/
+.tituloJugadores {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Old English Five', sans-serif;
+    margin: 0%;
+}
+.cuadrosJugadores {
+    display: flex;
+    text-align: center;
+    margin: 8% 6% 0% 6%;
+}
+.espacioJugadores {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 50px;
+    margin: 0% 9% 0% 9%;
+    padding: 1% 3% 1% 3%;
+}
+/*Edades*/
+.cuadros {
+    display: inline-flex;
+    margin: 13% 6% 0% 6%;
+}
+.espacio {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 50px;
+    margin: 0% 1% 0% 1%;
+    padding: 1% 3% 1% 3%;
+}
+.img1 {
+    width: 275px;
+}
+.img2 {
+    width: 295px;
+}
+.img3 {
+    width: 260px;
+    height: 350px;
+}
