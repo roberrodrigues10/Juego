@@ -35,16 +35,14 @@
 body {
     background-image: url('ChatOn\ image\ 2.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    max-width: 100%;
+    height: auto;
 }
 /*CSS INDEX*/
 .generalIndex {
     width: 100%;
     text-align: center;
     margin: 15% 1% 1% 1%;
-}
-.nombreIndex {
-
 }
 .container {
     display: inline-block;
